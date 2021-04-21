@@ -1,17 +1,25 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from "react"
+import ReactDOM from "react-dom"
+//parent component file imported
+import TodoContainer from "./functionBased/components/TodoContainer"
+//react routing
+import { BrowserRouter } from "react-router-dom"
 
+//stylesheet
+import "./functionBased/App.css"
+
+import { MyContext } from "./Context";
+
+
+const element = <h1>Hello from Create React App</h1>
+
+ReactDOM.render(element, document.getElementById("root"))
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+    // strict mode-- checks and logs warnings
+    // wrapping the MyContext data over the parent compTodoContainer
+    <React.StrictMode>
+        <BrowserRouter>
+            <TodoContainer />
+        </BrowserRouter>,
+    </React.StrictMode>,
+     document.getElementById("root"))

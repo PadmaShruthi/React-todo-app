@@ -1,0 +1,142 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  .inner {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding: 8rem 10px 4rem;
+    background-color: blueviolet;
+  }
+  .form-container {
+    width: 100%;
+    margin-bottom: 10px;
+    display: flex;
+    border-radius: calc(0.5 * 100px);
+    box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.38);
+    justify-content: center;
+  }
+  .input-text {
+    font-size: 1rem;
+    font-weight: 400;
+    width: 50%;
+    padding-right: 5px;
+    padding-left: 10px;
+    border-radius: calc(0.5 * 100px);
+  }
+  .input-text::placeholder {
+    color: #000;
+  }
+  
+  .input-submit {
+    background: transparent;
+    color: #0c0401;
+    text-transform: capitalize;
+    cursor: pointer;
+    justify-content: center;
+    font-weight: 600;
+    margin-right: 10px;
+  }
+  
+  .input-text,
+  .input-submit {
+    height: 45px;
+    outline: none;
+    border: none;
+  }
+
+  .active-link {
+    color: orangered;
+    text-decoration: underline;
+  }
+/* sidebar Nav */
+
+.navBar {
+  position: relative;
+}
+
+.navBar button {
+  position: fixed;
+  left: 5px;
+  top: 20px;
+  z-index: 10;
+  cursor: pointer;
+  
+  border: none;
+}
+
+.menuNav {
+  overflow-y: scroll;
+  list-style: none;
+  position: fixed;
+  top: 0;
+  background: rgb(206, 54, 125);
+  left: 0;
+  bottom: 0;
+  height: 100vh;
+  width: 0;
+  overflow: hidden;
+  max-width: 200px;
+  z-index: 9;
+}
+
+.menuNav.showMenu {
+  width: 80%;
+}
+
+a {
+  display: block;
+  padding: 10px 40px;
+  text-decoration: none;
+  color: #0bf746;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.menuNav li:first-child {
+  margin-top: 7rem;
+}
+/* about page */
+
+.about__content {
+  padding: 8rem 40px;
+  display: flex;
+}
+
+.about__list {
+  list-style: none;
+  flex: 2;
+  margin-right: 15px;
+}
+
+.about__list a {
+  color: #c41d9a;
+  text-transform: capitalize;
+  padding: 20px 0;
+  font-weight: 600;
+}
+
+.about__list a:hover {
+  color: rgb(199, 114, 161);
+}
+
+.main__content {
+  flex: 7;
+}
+
+.main__content h1 {
+  margin-bottom: 30px;
+  line-height: 30px;
+  font-size: 50px;
+  color: #0bf746;
+}
+
+.main__content p {
+  line-height: 25px;
+  color: #c41d9a;
+  font-size: 25px;
+}
