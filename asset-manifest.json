@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/PadmaShruthi/React-todo-app.git/static/css/main.e1ebdefc.chunk.css",
-    "main.js": "/PadmaShruthi/React-todo-app.git/static/js/main.0ca4e475.chunk.js",
-    "main.js.map": "/PadmaShruthi/React-todo-app.git/static/js/main.0ca4e475.chunk.js.map",
+    "main.js": "/PadmaShruthi/React-todo-app.git/static/js/main.b4306ff7.chunk.js",
+    "main.js.map": "/PadmaShruthi/React-todo-app.git/static/js/main.b4306ff7.chunk.js.map",
     "runtime-main.js": "/PadmaShruthi/React-todo-app.git/static/js/runtime-main.183f595d.js",
     "runtime-main.js.map": "/PadmaShruthi/React-todo-app.git/static/js/runtime-main.183f595d.js.map",
-    "static/js/2.0457343b.chunk.js": "/PadmaShruthi/React-todo-app.git/static/js/2.0457343b.chunk.js",
-    "static/js/2.0457343b.chunk.js.map": "/PadmaShruthi/React-todo-app.git/static/js/2.0457343b.chunk.js.map",
+    "static/js/2.9072db2a.chunk.js": "/PadmaShruthi/React-todo-app.git/static/js/2.9072db2a.chunk.js",
+    "static/js/2.9072db2a.chunk.js.map": "/PadmaShruthi/React-todo-app.git/static/js/2.9072db2a.chunk.js.map",
     "index.html": "/PadmaShruthi/React-todo-app.git/index.html",
     "static/css/main.e1ebdefc.chunk.css.map": "/PadmaShruthi/React-todo-app.git/static/css/main.e1ebdefc.chunk.css.map",
-    "static/js/2.0457343b.chunk.js.LICENSE.txt": "/PadmaShruthi/React-todo-app.git/static/js/2.0457343b.chunk.js.LICENSE.txt"
+    "static/js/2.9072db2a.chunk.js.LICENSE.txt": "/PadmaShruthi/React-todo-app.git/static/js/2.9072db2a.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.183f595d.js",
-    "static/js/2.0457343b.chunk.js",
+    "static/js/2.9072db2a.chunk.js",
     "static/css/main.e1ebdefc.chunk.css",
-    "static/js/main.0ca4e475.chunk.js"
+    "static/js/main.b4306ff7.chunk.js"
   ]
 }
