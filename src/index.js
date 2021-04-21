@@ -3,7 +3,7 @@ import ReactDOM from "react-dom"
 //parent component file imported
 import TodoContainer from "./functionBased/components/TodoContainer"
 //react routing
-import { BrowserRouter } from "react-router-dom"
+import { BrowserRouter as Router } from "react-router-dom"
 
 //stylesheet
 import "./functionBased/App.css"
@@ -18,8 +18,8 @@ ReactDOM.render(
     // strict mode-- checks and logs warnings
     // wrapping the MyContext data over the parent compTodoContainer
     <React.StrictMode>
-        <BrowserRouter>
+        <Router basename={process.env.PUBLIC_URL}>
             <TodoContainer />
-        </BrowserRouter>,
+        </Router>,
     </React.StrictMode>,
      document.getElementById("root"))
